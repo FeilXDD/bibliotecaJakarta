@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "C:/Users/RonaldoStivenAmayaHe/Desktop/BibliotecaPersistence/target/BibliotecaPersistence-1.0-SNAPSHOT.war",
+      "use": "@vercel/java"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
+}
